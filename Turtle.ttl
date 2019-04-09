@@ -1,0 +1,299 @@
+<http://www.dheeraj.org/heather>
+        <http://www.dheeraj.org/property/Dimensions>
+                "36x23x12" ;
+        <http://www.dheeraj.org/property/Material>
+                "Rosewood" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Egypt" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "70" ;
+        <http://www.dheeraj.org/property/Weight>
+                "14.99" .
+
+<http://www.dheeraj.org/Orangewood>
+        <http://www.dheeraj.org/property/Dimensions>
+                "41 x 4 x 15" ;
+        <http://www.dheeraj.org/property/Material>
+                "Layered Mahogany" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Europe" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "80" ;
+        <http://www.dheeraj.org/property/Weight>
+                "7" .
+
+<http://www.dheeraj.org/woodwind>
+        <http://www.dheeraj.org/property/Dimensions>
+                "24.5 x 15.75 x 14" ;
+        <http://www.dheeraj.org/property/Material>
+                "yellow brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Burgundy" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "70" ;
+        <http://www.dheeraj.org/property/Weight>
+                "15.2" .
+
+<http://www.dheeraj.org/allora>
+        <http://www.dheeraj.org/property/Dimensions>
+                "23x13.25x5.75" , "8.5x4.5x0.51" , "24.5 x 7 x 11" ;
+        <http://www.dheeraj.org/property/Material>
+                "Brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Europe" , "France" , "China" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "65" , "70" , "85" ;
+        <http://www.dheeraj.org/property/Weight>
+                "5.8" , "2.8" , "1.1" .
+
+<http://www.dheeraj.org/pixie>
+        <http://www.dheeraj.org/property/Dimensions>
+                "32x9x21" ;
+        <http://www.dheeraj.org/property/Material>
+                "Rosewood" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Egypt" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "75" ;
+        <http://www.dheeraj.org/property/Weight>
+                "11.25" .
+
+<http://www.dheeraj.org/serbian>
+        <http://www.dheeraj.org/property/Dimensions>
+                "1 x 1 x 6" , "1 x 1 x 15" ;
+        <http://www.dheeraj.org/property/Material>
+                "cherry wood" , "wood" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Greece" , "China" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "80" , "85" ;
+        <http://www.dheeraj.org/property/Weight>
+                "0.25" , "0.1" .
+
+<http://www.dheeraj.org/Banjira>
+        <http://www.dheeraj.org/property/Dimensions>
+                "56x19x18" ;
+        <http://www.dheeraj.org/property/Material>
+                "Tun wood" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "India" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "85" ;
+        <http://www.dheeraj.org/property/Weight>
+                "25.6" .
+
+<http://www.dheeraj.org/etude>
+        <http://www.dheeraj.org/property/Dimensions>
+                "22x11.25x6.5" , "0.8 x 11.9 x 2 " ;
+        <http://www.dheeraj.org/property/Material>
+                "cherry wood" , "yellow brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "China" , "Europe" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "70" , "85" ;
+        <http://www.dheeraj.org/property/Weight>
+                "1.8" , "0.25" .
+
+<http://www.dheeraj.org/Yamaha>
+        <http://www.dheeraj.org/property/Dimensions>
+                "36.9 x 15.5 x 4.5" , "42.1x 6.6  x 16.9 " , "22.5 x 14.75 x 13.5" ;
+        <http://www.dheeraj.org/property/Material>
+                "plastic" , "Brass" , "Rosewood" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Greece" , "Europe" , "Egpyt" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "90" , "85" , "70" ;
+        <http://www.dheeraj.org/property/Weight>
+                "14.2" , "12.35" , "4.2" .
+
+<http://www.dheeraj.org/Maharaja>
+        <http://www.dheeraj.org/property/Dimensions>
+                "22.5x12.5x12.5" , "49x17.6x7.7" ;
+        <http://www.dheeraj.org/property/Material>
+                "steel" , "Tun wood" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "India" , "China" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "80" , "75" ;
+        <http://www.dheeraj.org/property/Weight>
+                "22.1" , "7.72" .
+
+<http://www.dheeraj.org/yamaha>
+        <http://www.dheeraj.org/property/Dimensions>
+                "11 x 2 x 3 " , "25.8x10.6x15.4" ;
+        <http://www.dheeraj.org/property/Material>
+                "cherry wood" , "Brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Europe" , "China" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "70" , "75" ;
+        <http://www.dheeraj.org/property/Weight>
+                "1.6" , "0.3" .
+
+<http://www.dheeraj.org/rothco>
+        <http://www.dheeraj.org/property/Dimensions>
+                "7.25x4x15.75" ;
+        <http://www.dheeraj.org/property/Material>
+                "Brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "India" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "65" ;
+        <http://www.dheeraj.org/property/Weight>
+                "9.8" .
+
+<http://www.dheeraj.org/apelila>
+        <http://www.dheeraj.org/property/Dimensions>
+                "26 x 8.5 x 12.75" ;
+        <http://www.dheeraj.org/property/Material>
+                "Brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "France" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "85" ;
+        <http://www.dheeraj.org/property/Weight>
+                "6.3" .
+
+<http://www.dheeraj.org/schiller>
+        <http://www.dheeraj.org/property/Dimensions>
+                "28 x 18 x 16" ;
+        <http://www.dheeraj.org/property/Material>
+                "Brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Europe" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "75" ;
+        <http://www.dheeraj.org/property/Weight>
+                "14.2" .
+
+<http://www.dheeraj.org/Queen>
+        <http://www.dheeraj.org/property/Dimensions>
+                "58x34x33" ;
+        <http://www.dheeraj.org/property/Material>
+                "brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "India" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "60" ;
+        <http://www.dheeraj.org/property/Weight>
+                "12" .
+
+<http://www.dheeraj.org/Fender>
+        <http://www.dheeraj.org/property/Dimensions>
+                "45.8 x 6 x 17.8" ;
+        <http://www.dheeraj.org/property/Material>
+                "rosewood" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Europe" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "65" ;
+        <http://www.dheeraj.org/property/Weight>
+                "9.6" .
+
+<http://www.dheeraj.org/Casio>
+        <http://www.dheeraj.org/property/Dimensions>
+                "37.2 x 3.6x 12.1  " ;
+        <http://www.dheeraj.org/property/Material>
+                "plastic" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Greece" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "75" ;
+        <http://www.dheeraj.org/property/Weight>
+                "11.7" .
+
+<http://www.dheeraj.org/pearl>
+        <http://www.dheeraj.org/property/Dimensions>
+                "2 x 2 x 14" , "46x46x50" ;
+        <http://www.dheeraj.org/property/Material>
+                "cherry wood" , "Brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "China" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "65" , "70" ;
+        <http://www.dheeraj.org/property/Weight>
+                "0.35" , "50" .
+
+<http://www.dheeraj.org/alto>
+        <http://www.dheeraj.org/property/Dimensions>
+                "7.5x3.5x0.39" ;
+        <http://www.dheeraj.org/property/Material>
+                "Brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "China" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "80" ;
+        <http://www.dheeraj.org/property/Weight>
+                "2.3" .
+
+<http://www.dheeraj.org/tenor>
+        <http://www.dheeraj.org/property/Dimensions>
+                "7x4.1x0.5" ;
+        <http://www.dheeraj.org/property/Material>
+                "Brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "China" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "85" ;
+        <http://www.dheeraj.org/property/Weight>
+                "2.6" .
+
+<http://www.dheeraj.org/ravel>
+        <http://www.dheeraj.org/property/Dimensions>
+                "27 x 19 x 15" , "8.0x4.2x0.55" ;
+        <http://www.dheeraj.org/property/Material>
+                "Brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Europe" , "China" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "85" , "60" ;
+        <http://www.dheeraj.org/property/Weight>
+                "13.8" , "2.7" .
+
+<http://www.dheeraj.org/Vangoa>
+        <http://www.dheeraj.org/property/Dimensions>
+                "6.5 X 20 X 42" ;
+        <http://www.dheeraj.org/property/Material>
+                "walnut" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Europe" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "80" ;
+        <http://www.dheeraj.org/property/Weight>
+                "9.4" .
+
+<http://www.dheeraj.org/Regiment>
+        <http://www.dheeraj.org/property/Dimensions>
+                "6.75x4.5x17.5" ;
+        <http://www.dheeraj.org/property/Material>
+                "brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "India" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "75" ;
+        <http://www.dheeraj.org/property/Weight>
+                "10.65" .
+
+<http://www.dheeraj.org/mendini>
+        <http://www.dheeraj.org/property/Dimensions>
+                "22 x 7 x 11" , "19x20x24" , "23.2 x 16 x 13" ;
+        <http://www.dheeraj.org/property/Material>
+                "Brass" , "yellow brass" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Burgundy" , "China" , "France" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "55" , "65" ;
+        <http://www.dheeraj.org/property/Weight>
+                "14.77" , "42" , "5.6" .
+
+<http://www.dheeraj.org/LyxPro>
+        <http://www.dheeraj.org/property/Dimensions>
+                "39.9  x 5.2x 16.4" ;
+        <http://www.dheeraj.org/property/Material>
+                "Rosewood" ;
+        <http://www.dheeraj.org/property/Originated_from>
+                "Europe" ;
+        <http://www.dheeraj.org/property/Sound_In_Decibels>
+                "85" ;
+        <http://www.dheeraj.org/property/Weight>
+                "16.71" .

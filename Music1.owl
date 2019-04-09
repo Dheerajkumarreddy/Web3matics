@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.adproject.org/Instrument/"
+     xml:base="http://www.adproject.org/Instrument/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.adproject.org/Instrument">
+        <owl:versionIRI rdf:resource="http://www.adproject.org/Instrument/0.1"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.adproject.org/Instrument/changes_tune_with_pressure -->
+
+    <owl:ObjectProperty rdf:about="http://www.adproject.org/Instrument/changes_tune_with_pressure">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/String"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Harps"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Sitar"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/String_Guitar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/has_auxillary_output -->
+
+    <owl:ObjectProperty rdf:about="http://www.adproject.org/Instrument/has_auxillary_output">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/electric"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Guitar"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Keyboard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/has_keyboard -->
+
+    <owl:ObjectProperty rdf:about="http://www.adproject.org/Instrument/has_keyboard">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Keyboard"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Midi_Keyboard"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/keytar"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/mellotron"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/has_strings -->
+
+    <owl:ObjectProperty rdf:about="http://www.adproject.org/Instrument/has_strings">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/String"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Harps"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Sitar"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/String_Guitar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/is_electric -->
+
+    <owl:ObjectProperty rdf:about="http://www.adproject.org/Instrument/is_electric">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Guitar"/>
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Keyboard"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Archtop_Guitar"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Midi_Keyboard"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Solid_body_guitar"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/keytar"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/mellotron"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/is_made_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.adproject.org/Instrument/is_made_of">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Brass"/>
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Wood"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Diple"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Flute"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Keyed"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Slide"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/valved"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/operated_by_vibration -->
+
+    <owl:ObjectProperty rdf:about="http://www.adproject.org/Instrument/operated_by_vibration">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Vibration"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Drums"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Tabala"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/operated_by_wind -->
+
+    <owl:ObjectProperty rdf:about="http://www.adproject.org/Instrument/operated_by_wind">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Wind"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Diple"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Flute"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/French_horn"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Keyed_bugle"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/Mellophone"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/keyed_trumpet"/>
+        <rdfs:range rdf:resource="http://www.adproject.org/Instrument/trumpet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.adproject.org/Instrument/Weight">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Musical_Instrument"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/brand_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.adproject.org/Instrument/brand_name">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Musical_Instrument"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Brand of the instrument</rdfs:comment>
+        <rdfs:label>Brand Name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/dimensions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.adproject.org/Instrument/dimensions">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Musical_Instrument"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>dimensions in x,y,z</rdfs:comment>
+        <rdfs:label>dimensions</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/material -->
+
+    <owl:DatatypeProperty rdf:about="http://www.adproject.org/Instrument/material">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Musical_Instrument"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/originated_from -->
+
+    <owl:DatatypeProperty rdf:about="http://www.adproject.org/Instrument/originated_from">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Musical_Instrument"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/sound_in_decibals -->
+
+    <owl:DatatypeProperty rdf:about="http://www.adproject.org/Instrument/sound_in_decibals">
+        <rdfs:domain rdf:resource="http://www.adproject.org/Instrument/Musical_Instrument"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Archtop_Guitar -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Archtop_Guitar">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Guitar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Brass -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Brass">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Wind"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Diple -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Diple">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Wood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Drums -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Drums">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Vibration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Flute -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Flute">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Wood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/French_horn -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/French_horn">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/valved"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Guitar -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Guitar">
+        <owl:equivalentClass rdf:resource="http://www.adproject.org/Instrument/String_Guitar"/>
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/electric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Harps -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Harps">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/String"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Instrument -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Instrument"/>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Keyboard -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/electric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Keyed -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Keyed">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Brass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Keyed_bugle -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Keyed_bugle">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Keyed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Mellophone -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Mellophone">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/valved"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Midi_Keyboard -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Midi_Keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Musical_Instrument -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Musical_Instrument">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Sackbut -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Sackbut">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Slide"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Sitar -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Sitar">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/String"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Slide -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Slide">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Brass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Solid_body_guitar -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Solid_body_guitar">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Guitar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/String -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/String">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Musical_Instrument"/>
+        <rdfs:comment></rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/String_Guitar -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/String_Guitar">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/String"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Tabala -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Tabala">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Vibration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Vibration -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Vibration">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Musical_Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Wind -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Wind">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Musical_Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Wood -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/Wood">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Wind"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/bazooka -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/bazooka">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Slide"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/electric -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/electric">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Musical_Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/keyed_trumpet -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/keyed_trumpet">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Keyed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/keytar -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/keytar">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/mellotron -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/mellotron">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Keyboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/trumpet -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/trumpet">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/valved"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.adproject.org/Instrument/valved -->
+
+    <owl:Class rdf:about="http://www.adproject.org/Instrument/valved">
+        <rdfs:subClassOf rdf:resource="http://www.adproject.org/Instrument/Brass"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.adproject.org/Instrument/Guitar -->
+
+    <owl:NamedIndividual rdf:about="http://www.adproject.org/Instrument/Guitar">
+        <rdf:type rdf:resource="http://www.adproject.org/Instrument/Archtop_Guitar"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
